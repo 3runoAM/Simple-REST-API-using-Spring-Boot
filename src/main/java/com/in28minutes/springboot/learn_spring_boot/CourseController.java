@@ -16,7 +16,10 @@ public class CourseController {
                 new Course(1L, "Learn Spring Framework", "in28minutes"),
                 new Course( 2L, "Learn Spring Boot", "in28minutes"),
                 new Course(3L, "Learn API", "in28minutes"),
-                new Course(4L, "Learn Microservices", "in28minutes")
+                new Course(4L, "Learn Microservices", "in28minutes"),
+                new Course(5L, "Learn AWS", "in28minutes"),
+                new Course(6L, "Learn Azure", "in28minutes"),
+                new Course(7L, "Learn Docker", "in28minutes")
         );
     }
 }

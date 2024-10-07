@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: prod
+  application:
+    name: learn_spring_boot
+
+devtools:
+  restart:
+    enabled: true
+  livereload:
+    enabled: true
+
+logging:
+  level:
+    org:
+      springframework: debug
