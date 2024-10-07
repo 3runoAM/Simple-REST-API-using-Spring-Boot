@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: prod
+    active: dev
   application:
     name: learn_spring_boot
 
@@ -14,3 +14,8 @@ logging:
   level:
     org:
       springframework: debug
+
+currency-service:
+  url: https://deafult.in28minutes.com
+  username: 3runo
+  key: 3runo

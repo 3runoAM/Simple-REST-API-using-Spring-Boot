@@ -2,3 +2,9 @@ logging:
   level:
     org:
       springframework: trace
+
+
+currency-service:
+  url: https://dev.in28minutes.com
+  username: 3runoDev
+  key: dev3runo
