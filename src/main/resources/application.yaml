@@ -4,12 +4,6 @@ spring:
   application:
     name: learn_spring_boot
 
-devtools:
-  restart:
-    enabled: true
-  livereload:
-    enabled: true
-
 logging:
   level:
     org:
@@ -19,3 +13,9 @@ currency-service:
   url: https://deafult.in28minutes.com
   username: 3runo
   key: 3runo
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health,metrics"
